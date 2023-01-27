@@ -1,0 +1,37 @@
+{
+    "name": "cxlblm/php-packer",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Cxlblm\\PhpPacker\\": "src/"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cxlblm",
+            "email": "cxlblm@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.8",
+        "pestphp/pest": "^2.5.0",
+        "phpstan/phpstan": "^1.10.13",
+        "rector/rector": "^0.15.24",
+        "symfony/var-dumper": "^6.2.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
